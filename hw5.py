@@ -5,9 +5,7 @@ from time import time
 def factorize(*number: tuple) -> list:
 
     for num in number:
-        result = [i for i in range(1, num + 1) if not num % i]
-
-    return result
+        return [i for i in range(1, num + 1) if not num % i]
 
 
 if __name__ == '__main__':
